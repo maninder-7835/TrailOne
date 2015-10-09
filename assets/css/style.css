@@ -897,7 +897,7 @@ div.banner {
 	transform: rotateY(180deg);
 }
 
-.flip-container, .front, .back 
+.flip-container, .front, .back , .front1
 {
 	height: 300px;
 }
@@ -922,7 +922,7 @@ div.banner {
 {
 	margin: 15px 10px;
 }
-.front, .back 
+.front, .back, .front1
 {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -933,14 +933,14 @@ div.banner {
 	left: 0;
 }
 
-.front 
+.front , .front1
 {
 	z-index: 2;
 	/*background-color: rgba(92, 145, 216, 0.27);*/
 	background-color: #f4f4f4;
 	width: 100%;
 }
-.front h5, .back p 
+.front h5, .back p , front1 h5
 {
 	margin-top: 20px;
 }
@@ -951,6 +951,16 @@ div.banner {
 	position: absolute;
 	bottom: 35%;
 	left: 50%;
+	margin-left: -55px;
+	margin-top: -29px;
+}
+.front1 h5 
+{
+	line-height: 31px;
+	font-weight: 400;
+	position: absolute;
+	bottom: 35%;
+	left: 30%;
 	margin-left: -55px;
 	margin-top: -29px;
 }
