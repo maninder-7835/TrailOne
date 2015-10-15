@@ -100,11 +100,6 @@ $(document).ready(function () {
     });
 
 
-
-
-
-
-
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
         center: new google.maps.LatLng(28.6442503, 77.1231559),
@@ -230,6 +225,13 @@ $(document).ready(function () {
     });
 
 
-    
+    $("#Sec1").click(function () {
+        $("#divsec1").show();
+        $("#divsec2").hide();
+    });
 
+    $("#Sec2").click(function () {
+        $("#divsec1").hide();
+        $("#divsec2").show();
+    });
 });
