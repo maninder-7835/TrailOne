@@ -1343,3 +1343,12 @@ input#cfsubmit:hover {
 		text-align: center;
 	}
 }
+
+.galleryImagesPadding {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.galleryImagesPadding a{
+	padding:15px;
+}

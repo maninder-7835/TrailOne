@@ -224,14 +224,51 @@ $(document).ready(function () {
         });
     });
 
-
-    $("#Sec1").click(function () {
-        $("#divsec1").show();
-        $("#divsec2").hide();
+    $("#SecAll").click(function () {
+        $("#divsec1to5").show();
+        $("#divsec6to8").show();
+        $("#divsecGeneral").show();
+        $("#divsecLkg").show();
+        $("#divsecTitles").show();
     });
 
-    $("#Sec2").click(function () {
-        $("#divsec1").hide();
-        $("#divsec2").show();
+    $("#Sec1to5").click(function () {
+        $("#divsec1to5").show();
+        $("#divsec6to8").hide();
+        $("#divsecGeneral").hide();
+        $("#divsecLkg").hide();
+        $("#divsecTitles").hide();
+    });
+
+    $("#Sec6to8").click(function () {
+        $("#divsec1to5").hide();
+        $("#divsec6to8").show();
+        $("#divsecGeneral").hide();
+        $("#divsecLkg").hide();
+        $("#divsecTitles").hide();
+    });
+
+    $("#SecGeneral").click(function () {
+        $("#divsec1to5").hide();
+        $("#divsec6to8").hide();
+        $("#divsecGeneral").show();
+        $("#divsecLkg").hide();
+        $("#divsecTitles").hide();
+    });
+
+    $("#SecLkg").click(function () {
+        $("#divsec1to5").hide();
+        $("#divsec6to8").hide();
+        $("#divsecGeneral").hide();
+        $("#divsecLkg").show();
+        $("#divsecTitles").hide();
+    });
+
+    $("#SecTitles").click(function () {
+        $("#divsec1to5").hide();
+        $("#divsec6to8").hide();
+        $("#divsecGeneral").hide();
+        $("#divsecLkg").hide();
+        $("#divsecTitles").show();
     });
 });
